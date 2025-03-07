@@ -20,6 +20,6 @@ ENV NODE_ENV=production
 
 # Expose the required port for n8n
 EXPOSE 5678
-
+ 
 # Set the default command to start n8n with explicit path
 CMD ["node", "/usr/local/lib/node_modules/n8n/bin/n8n", "start"]
